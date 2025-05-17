@@ -83,7 +83,7 @@
     "@fontsource/noto-sans-kr": "5.2.5",
     "@fontsource/noto-sans-sc": "5.2.5",
     "@fontsource/noto-sans-tc": "5.2.5",
-    "jellyfin@/libass-wasm": "4.2.3",
+    "@jellyfinlibass-wasm": "4.2.3",
     "@jellyfin/sdk": "0.0.0-unstable.202504150501",
     "@jellyfin/ux-web": "1.0.0",
     "@mui/icons-material": "6.4.10",
@@ -152,7 +152,7 @@
     "Firefox ESR"
   ],
   "scripts": {
-    "postinstall": "patch-package",
+    "postinstall": "copy /Y custom-assets\\icon-transparent.png node_modules\\@jellyfin\\ux-web\\icon-transparent.png",
     "start": "npm run serve",
     "serve": "webpack serve --config webpack.dev.js",
     "build:analyze": "cross-env NODE_ENV=\"production\" webpack --config webpack.analyze.js",
