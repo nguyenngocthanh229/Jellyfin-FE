@@ -15,10 +15,10 @@ html {
     border-color: rgba(255, 255, 255, 0.135);
 }
 
-.skinHeader-withBackground {
-    background: #000420;
-    background: linear-gradient(to right, #000420 0%, #06256f 18%, #2b052b 38%, #2b052b 68%, #06256f 81%, #000420 100%);
-}
+// .skinHeader-withBackground {
+//     background: #000420;
+//     background: linear-gradient(to right, #000420 0%, #06256f 18%, #2b052b 38%, #2b052b 68%, #06256f 81%, #000420 100%);
+// }
 
 .skinHeader.semiTransparent {
     backdrop-filter: none !important;
@@ -46,7 +46,12 @@ html {
 }
 
 .backgroundContainer {
-    background: url(bg.jpg) center top no-repeat #030322;
+background-image: url('https://xdcs.cdnchinhphu.vn/446259493575335936/2023/8/24/hvan-16928633464792060908039.jpg');
+  filter: blur(15px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    // background: url(bg.jpg) center top no-repeat #030322;
     background-size: cover;
 }
 
@@ -472,7 +477,7 @@ a[data-role=button] {
 }
 
 .emby-tab-button {
-    color: #999;
+     padding: 1.75em 1.7em;
 }
 
 .emby-tab-button-active {

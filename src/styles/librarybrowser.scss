@@ -162,6 +162,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    color: black;
 }
 
 .noHeaderRight .headerRight,
@@ -174,6 +175,8 @@
     height: 1.7em;
     align-items: center;
     flex-shrink: 1;
+    margin-top: auto;
+    margin-bottom: auto;
 
     [dir="ltr"] & {
         margin: 0 0 0 0.5em;
@@ -1488,6 +1491,16 @@ div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
     margin-top: 0;
     font-size: 1.4em;
 }
+
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 
 .overview-controls {
     display: flex;

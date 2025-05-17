@@ -151,9 +151,16 @@
 }
 
 .emby-button-foreground {
-    position: relative;
-    z-index: 1;
+  display: inline-block;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  color: black;
 }
+
+.emby-button-foreground:hover {
+  transform: translateY(-4px);
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 
 .btnFilterWithBubble {
     position: relative;
